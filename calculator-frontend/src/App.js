@@ -10,7 +10,7 @@ function App() {
 
     const handleCalculation = async () => {
         try {
-            const response = await axios.post('http://localhost:3001/calculate', {
+            const response = await axios.post('http://15.207.16.66:3001/calculate', {
                 num1: parseFloat(num1),
                 num2: parseFloat(num2),
                 operation,
